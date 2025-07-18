@@ -2587,8 +2587,7 @@ textarea.is-invalid {
 .th-btn:focus,
 .th-btn:hover,
 .th-btn:active {
-  /* background: var(--theme-color); */
-  background: var(--white-color);
+  background: var(--theme-color);
   color: var(--white-color);
 }
 .th-btn:focus i,
@@ -2610,12 +2609,10 @@ textarea.is-invalid {
   animation: ani 0.5s steps(22) forwards;
 }
 .th-btn.style2 {
-  /* background: var(--white-color); */
-  background: var(--theme-color);
+  background: var(--white-color);
 }
 .th-btn.style2:after {
-  /* background: var(--theme-color); */
-  background: var(--white-color);
+  background: var(--theme-color);
 }
 .th-btn.style2:focus,
 .th-btn.style2:hover,
