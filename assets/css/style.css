@@ -33,6 +33,7 @@
   --th-border-color5: #49515c;
   --th-border-color6: #383d46;
   --title-font: "Space Grotesk", sans-serif;
+  --app-logo-font: "fabricobc", sans-serif;
   --body-font: "DM Sans", sans-serif;
   --icon-font: "Font Awesome 6 Pro";
   --main-container: 1464px;
@@ -42,6 +43,18 @@
   --section-title-space: 60px;
   --ripple-ani-duration: 5s;
   --th-body-background: #ffffff;
+}
+@font-face{
+    font-family: "fabricobc";
+    src: url("../fonts/fabrico/ecf32076e34a4e392972405c5ecfe956.eot");
+    src: url("../fonts/fabrico/ecf32076e34a4e392972405c5ecfe956.eot?#iefix")format("embedded-opentype"),
+        url("../fonts/fabrico/ecf32076e34a4e392972405c5ecfe956.woff")format("woff"),
+        url("../fonts/fabrico/ecf32076e34a4e392972405c5ecfe956.woff2")format("woff2"),
+        url("../fonts/fabrico/ecf32076e34a4e392972405c5ecfe956.ttf")format("truetype"),
+        url("../fonts/fabrico/ecf32076e34a4e392972405c5ecfe956.svg#sbc")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
 }
 html,
 body {
@@ -2496,7 +2509,7 @@ textarea.is-invalid {
 .loader-once {
   font-size: 40px;
   display: inline-block;
-  font-family: var(--title-font);
+  font-family: var(--app-logo-font);
   font-weight: 700;
   color: var(--title-color);
   box-sizing: border-box;
@@ -2507,6 +2520,7 @@ textarea.is-invalid {
   margin-left: 20px;
 }
 .loading-text-once {
+  font-family: var(--app-logo-font);
   position: absolute;
   left: 0;
   top: 0;
