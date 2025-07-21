@@ -2517,7 +2517,7 @@ textarea.is-invalid {
     0 0 1px var(--theme-color);
   position: relative;
   line-height: normal;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 .loading-text-once {
   font-family: var(--app-logo-font);
@@ -2529,8 +2529,8 @@ textarea.is-invalid {
   height: 100%;
   overflow: hidden;
   box-sizing: border-box;
-  -webkit-animation: animloader 2s linear 1;
-  animation: animloader 2s linear 1;
+  /* -webkit-animation: animloader 2s linear 1;
+  animation: animloader 2s linear 1; */
 }
 .loading-text-once::first-letter {
   color: var(--theme-color);
