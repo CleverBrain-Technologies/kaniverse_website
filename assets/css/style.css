@@ -44,17 +44,21 @@
   --ripple-ani-duration: 5s;
   --th-body-background: #ffffff;
 }
-@font-face{
-    font-family: "fabricobc";
-    src: url("../fonts/fabrico/ecf32076e34a4e392972405c5ecfe956.eot");
-    src: url("../fonts/fabrico/ecf32076e34a4e392972405c5ecfe956.eot?#iefix")format("embedded-opentype"),
-        url("../fonts/fabrico/ecf32076e34a4e392972405c5ecfe956.woff")format("woff"),
-        url("../fonts/fabrico/ecf32076e34a4e392972405c5ecfe956.woff2")format("woff2"),
-        url("../fonts/fabrico/ecf32076e34a4e392972405c5ecfe956.ttf")format("truetype"),
-        url("../fonts/fabrico/ecf32076e34a4e392972405c5ecfe956.svg#sbc")format("svg");
-    font-weight:normal;
-    font-style:normal;
-    font-display:swap;
+@font-face {
+  font-family: "fabricobc";
+  src: url("../fonts/fabrico/ecf32076e34a4e392972405c5ecfe956.eot");
+  src: url("../fonts/fabrico/ecf32076e34a4e392972405c5ecfe956.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/fabrico/ecf32076e34a4e392972405c5ecfe956.woff") format("woff"),
+    url("../fonts/fabrico/ecf32076e34a4e392972405c5ecfe956.woff2")
+      format("woff2"),
+    url("../fonts/fabrico/ecf32076e34a4e392972405c5ecfe956.ttf")
+      format("truetype"),
+    url("../fonts/fabrico/ecf32076e34a4e392972405c5ecfe956.svg#sbc")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 html,
 body {
@@ -1492,6 +1496,17 @@ textarea.style2 {
 .form-group {
   margin-bottom: var(--bs-gutter-x);
   position: relative;
+}
+.form-group > a {
+  display: inline-block;
+  position: absolute;
+  right: 5px;
+  font-size: 16px;
+  height: 48px;
+  padding: 16px;
+}
+.form-group > a:hover {
+  background-color: rgb(255, 212, 249);
 }
 .form-group > i {
   display: inline-block;
@@ -3142,6 +3157,9 @@ textarea.is-invalid {
   .play-btn.style2 {
     --icon-size: 56px;
     --icon-font-size: 20px;
+  }
+  .loader-once {
+    width: 400px;
   }
 }
 .play-btn.style3 {
@@ -11187,7 +11205,7 @@ ul.comment-list .th-comment-item:first-child > .th-post-comment {
   margin-bottom: 13px;
 }
 .hero-style2 .hero-text {
-  max-width: 532px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
   font-size: 18px;
